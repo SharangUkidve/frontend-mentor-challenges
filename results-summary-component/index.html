@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="result-summary-card">
+      <div class="result-container">
+        <h2 class="result-title">Your Result</h2>
+        <div class="result-score-circle">
+          <span class="result-score-circle-your">76</span>
+          <span class="result-score-circle-total">of 100</span>
+        </div>
+        <div class="result-caption-title">Great</div>
+        <div class="result-caption-text">
+          You scored higher than 65% of the people who have taken these tests.
+        </div>
+      </div>
+      <div class="summary-container">
+        <h2 class="summary-title">Summary</h2>
+        <ul class="summary-stats">
+          <li class="summary-stats-row reaction-row">
+            <img
+              src="./assets/images/icon-reaction.svg"
+              alt="reaction icon"
+              class="summary-stats-row-icon"
+            />
+            <span class="summary-stats-row-title">Reaction</span>
+            <span class="summary-stats-row-score">
+              <span class="summary-stats-row-score-yours">80</span>
+              /
+              <span class="summary-stats-row-score-total">100</span>
+            </span>
+          </li>
+          <li class="summary-stats-row memory-row">
+            <img
+              src="./assets/images/icon-memory.svg"
+              alt="memory icon"
+              class="summary-stats-row-icon"
+            />
+            <span class="summary-stats-row-title">Memory</span>
+            <span class="summary-stats-row-score">
+              <span class="summary-stats-row-score-yours">92</span>
+              /
+              <span class="summary-stats-row-score-total">100</span>
+            </span>
+          </li>
+          <li class="summary-stats-row verbal-row">
+            <img
+              src="./assets/images/icon-verbal.svg"
+              alt="verbal icon"
+              class="summary-stats-row-icon"
+            />
+            <span class="summary-stats-row-title">Verbal</span>
+            <span class="summary-stats-row-score">
+              <span class="summary-stats-row-score-yours">61</span>
+              /
+              <span class="summary-stats-row-score-total">100</span></span
+            >
+          </li>
+          <li class="summary-stats-row visual-row">
+            <img
+              src="./assets/images/icon-visual.svg"
+              alt="visual icon"
+              class="summary-stats-row-icon"
+            />
+            <span class="summary-stats-row-title">Visual</span>
+            <span class="summary-stats-row-score">
+              <span class="summary-stats-row-score-yours">72</span>
+              /
+              <span class="summary-stats-row-score-total">100</span>
+            </span>
+          </li>
+        </ul>
+        <button class="btn btn-continue">Continue</button>
+      </div>
+    </div>
+    <footer class="footer">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        Frontend Mentor
+      </a>
+    </footer>
+  </body>
+</html>
