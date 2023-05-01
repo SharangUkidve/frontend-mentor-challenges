@@ -22,6 +22,8 @@ Users should be able to:
 ![](./screenshots/results-summary-component-mobile.png)
 
 ## Links
+- [Live Site](https://su-fmc-results-summary-component.netlify.app)
+- [Solution](https://www.frontendmentor.io/solutions/mobile-first-design-results-summary-component-SkJLdCVGwL)
 
 ## Built with
 
