@@ -46,7 +46,7 @@ export const getCountries = async () => {
       params: { fields: fieldsForCountriesList },
     });
     return parseCountriesResponse(response);
-  } catch (e) {
+  } catch (e: any) {
     if (e instanceof AxiosError && e.response?.status === 404) {
       return getHardCodedCountries();
     }
@@ -59,7 +59,7 @@ export const getCountry = async (code: string) => {
     const response = await axios.get<ICountries>(URLs.SINGLE_COUNTRY + code, { params: { fields: fieldsForCountry } });
     const countries = parseCountriesResponse(response);
     return countries[0];
-  } catch (e) {
+  } catch (e: any) {
     if (e instanceof AxiosError && e.response?.status === 404) {
       const countries = await getHardCodedCountries();
       return countries.find((country) => countryMatcher(code, country));
@@ -78,7 +78,7 @@ export const getBorderCountriesByCode = async (codes: string[]) => {
     });
 
     return parseCountriesResponse(response).map(getMappedBorderCountryDetails);
-  } catch (e) {
+  } catch (e: any) {
     if (e instanceof AxiosError && e.response?.status === 404) {
       const countries = await getHardCodedCountries();
       return (
