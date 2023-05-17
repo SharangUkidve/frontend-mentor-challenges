@@ -49,8 +49,8 @@ Rest Countries - v3.1
 
 ## Links
 
-- [Live Site](/)
-- [Solution](/)
+- [Live Site](https://wintworld.netlify.app/)
+- [Solution](https://www.frontendmentor.io/solutions/react-rest-countries-api-with-theme-toggle-and-system-theme-detection-f_-HBVkcxs)
 
 ## Built with
 
