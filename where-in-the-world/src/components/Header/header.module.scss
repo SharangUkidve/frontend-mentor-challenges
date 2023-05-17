@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 2rem var(--padding-sides);
+
+  &_container {
+    background-color: var(--color-bg-elements);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 7px 15px 0 var(--color-box-shadow);
+  }
+
+  @media (min-width: 768px) {
+    padding: 1.25rem var(--padding-sides);
+  }
+}
+
+.logo {
+  &_title {
+    margin: 0;
+    font-size: 1rem;
+
+    @media screen and (min-width: 768px) {
+      font-size: 1.75rem;
+    }
+  }
+
+  &_link {
+    color: inherit;
+    text-decoration: none;
+  }
+}

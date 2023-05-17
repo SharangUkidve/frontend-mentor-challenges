@@ -1,0 +1,86 @@
+.countries {
+  &_filter {
+    position: relative;
+
+    &s {
+      padding: 3rem var(--padding-sides);
+      display: grid;
+      gap: 3rem;
+    }
+
+    &_input {
+      color: var(--color-text-input);
+      border-radius: 0.5rem;
+      border: none;
+      background: none;
+      background-color: var(--color-bg-elements);
+      font-size: inherit;
+      width: 100%;
+      box-shadow: 0 0 5px 0 var(--color-box-shadow);
+      padding: 1.25rem;
+
+      &_icon {
+        position: absolute;
+        line-height: 1;
+        display: inline-flex;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+
+  &_search {
+    // &_box {
+    //   max-width: 500px;
+    // }
+
+    &_input {
+      padding-inline-start: 4rem;
+      padding-inline-end: 1rem;
+
+      &::placeholder {
+        color: var(--color-placeholder);
+      }
+    }
+
+    &_label {
+      left: 1.5rem;
+      color: var(--color-placeholder);
+    }
+  }
+
+  &_region {
+    &_filter {
+      max-width: 60%;
+      color: var(--color-text-input);
+
+      &_label {
+        right: 1rem;
+        pointer-events: none;
+        color: inherit;
+      }
+    }
+
+    &_select {
+      appearance: none;
+      padding-inline-start: 1rem;
+      padding-inline-end: 3rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    &_filter {
+      &s {
+        grid-auto-flow: column;
+        place-items: stretch;
+        justify-content: space-between;
+        grid-auto-columns: minmax(350px, 40%) minmax(150px, 20%);
+        padding: 4rem var(--padding-sides);
+      }
+    }
+
+    &_region_filter {
+      max-width: unset;
+    }
+  }
+}

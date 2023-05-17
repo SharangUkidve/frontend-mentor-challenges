@@ -1,0 +1,19 @@
+.country_meta {
+  &_info {
+    margin-bottom: 1rem;
+    display: flex;
+  }
+
+  &_label {
+    font-weight: 600;
+
+    &::after {
+      white-space: pre-wrap;
+      content: ': ';
+    }
+  }
+
+  &_value {
+    flex: 1;
+  }
+}

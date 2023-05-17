@@ -1,0 +1,24 @@
+$countries-media-sizes: (
+  2: 701px,
+  3: 1025px,
+  4: 1366px,
+);
+
+.countries {
+  display: grid;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  padding: 0 var(--padding-sides);
+
+  &_container {
+    padding-bottom: 4rem;
+  }
+
+  @each $count, $size in $countries-media-sizes {
+    @media (min-width: $size) {
+      grid-template-columns: repeat($count, minmax(0, 1fr));
+      row-gap: #{($count - 1) * 2 - 1}rem;
+      column-gap: #{$count}rem;
+    }
+  }
+}
