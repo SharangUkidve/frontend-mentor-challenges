@@ -20,8 +20,8 @@ Solution for the [Frontend Mentor](https://frontendmentor.io) challenge - [Profi
 
 ## Links
 
-- [Live Site]()
-- [Solution]()
+- [Live Site](https://su-fmc-profile-card-component.netlify.app/)
+- [Solution](https://www.frontendmentor.io/solutions/profile-card-component-iPvuSspLDl)
 
 ## Built with
 
