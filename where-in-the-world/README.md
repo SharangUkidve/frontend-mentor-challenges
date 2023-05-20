@@ -1,4 +1,4 @@
-# Results Summary Component
+# Where in the World
 
 Solution for the [Frontend Mentor](https://frontendmentor.io) challenge - [REST Countries API with color theme switcher](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca)
 
