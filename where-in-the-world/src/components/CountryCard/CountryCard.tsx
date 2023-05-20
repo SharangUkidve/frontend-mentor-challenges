@@ -17,7 +17,7 @@ const CountryCard = ({ country }: { country: ICountryDetails }) => {
       title={country.name}
     >
       <div className={cc.card_img_container}>
-        <img src={country.flagUrl} alt={country.flagAlt} className={cc.card_img} width="100%" height="100%" />
+        <img src={country.flagUrl} alt={country.flagAlt} className={cc.card_img} />
       </div>
       <div className={cc.card_title}>{country.name}</div>
       <div className={cc.card_body}>
