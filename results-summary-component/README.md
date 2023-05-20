@@ -5,7 +5,7 @@ Solution for the [Frontend Mentor](https://frontendmentor.io) challenge - [Resul
 ## Table of contents
 
 - [The challenge](#the-challenge)
-- [Screenshots](#screenshot)
+- [Screenshots](#screenshots)
 - [Links](#links)
 - [Built with](#built-with)
 
@@ -22,7 +22,8 @@ Users should be able to:
 ![](./screenshots/results-summary-component-mobile.png)
 
 ## Links
-- [Live Site](https://su-fmc-results-summary-component.netlify.app)
+
+- [Live Site](https://su-fm-newbie.netlify.app/results-summary-component/)
 - [Solution](https://www.frontendmentor.io/solutions/mobile-first-design-results-summary-component-SkJLdCVGwL)
 
 ## Built with

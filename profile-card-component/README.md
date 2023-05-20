@@ -1,4 +1,4 @@
-# Results Summary Component
+# Profile Card Component
 
 Solution for the [Frontend Mentor](https://frontendmentor.io) challenge - [Profile Card Component](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
 
@@ -20,7 +20,7 @@ Solution for the [Frontend Mentor](https://frontendmentor.io) challenge - [Profi
 
 ## Links
 
-- [Live Site](https://su-fmc-profile-card-component.netlify.app/)
+- [Live Site](https://su-fm-newbie.netlify.app/profile-card-component/)
 - [Solution](https://www.frontendmentor.io/solutions/profile-card-component-iPvuSspLDl)
 
 ## Built with

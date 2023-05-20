@@ -20,8 +20,8 @@ Solution for the [Frontend Mentor](https://frontendmentor.io) challenge - [QR Co
 
 ## Links
 
-- [Live Site]()
-- [Solution]()
+- [Live Site](https://su-fm-newbie.netlify.app/qr-code-component/)
+- [Solution](https://www.frontendmentor.io/solutions/qr-code-component-mzZAz5ixZE)
 
 ## Built with
 
