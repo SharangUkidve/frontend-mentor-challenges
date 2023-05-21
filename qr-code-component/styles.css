@@ -1,3 +1,5 @@
+@import url("/common.css");
+
 :root {
   --white: hsl(0, 0%, 100%);
   --light-gray: hsl(212, 45%, 89%);
@@ -8,21 +10,9 @@
   --color-link-focus: hsl(209, 100%, 90%);
   --bg-footer: var(--dark-blue);
   --color-footer: var(--white);
-
-  font-family: "Outfit", sans-serif;
-  background-color: var(--light-gray);
-  font-size: 16px;
-}
-
-* {
-  font-family: inherit;
-  box-sizing: inherit;
-}
-
-body {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  --bg-app: var(--light-gray);
+  --font-size-app: 16px;
+  --font-family-app: "Outfit", sans-serif;
 }
 
 .card-container {
@@ -62,27 +52,4 @@ body {
 .card-body {
   font-size: 0.9375rem;
   color: var(--grayish-blue);
-}
-
-.footer {
-  z-index: 10;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: var(--bg-footer);
-  color: var(--color-footer);
-  height: var(--height-footer);
-  line-height: 3rem;
-  text-align: center;
-}
-
-.footer a {
-  text-decoration: none;
-  color: var(--color-link);
-}
-
-.footer a:hover,
-.footer a:focus {
-  text-decoration: underline;
-  color: var(--color-link-focus);
 }

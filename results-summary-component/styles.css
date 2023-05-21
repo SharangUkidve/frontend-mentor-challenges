@@ -1,3 +1,5 @@
+@import url("/common.css");
+
 @font-face {
   font-family: HankenGrotesk;
   src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
@@ -35,40 +37,8 @@
   --color-footer: var(--dark-gray-blue);
   --bg-footer: var(--cobalt-blue-bg);
 
-  font-size: 16px;
-}
-
-* {
-  font-family: inherit;
-  box-sizing: inherit;
-}
-
-body {
-  box-sizing: border-box;
-  font-family: HankenGrotesk, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.footer {
-  bottom: 0;
-  width: 100%;
-  background-color: var(--bg-footer);
-  color: var(--color-footer);
-  height: var(--height-footer);
-  line-height: 3rem;
-  text-align: center;
-}
-
-.footer a {
-  text-decoration: none;
-  color: var(--color-link);
-}
-
-.footer a:hover,
-.footer a:focus {
-  text-decoration: underline;
-  color: var(--color-link-focus);
+  --font-size-app: 16px;
+  --font-family-app: HankenGrotesk, sans-serif;
 }
 
 .result-summary-card {

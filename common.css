@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  font-family: inherit;
+  box-sizing: inherit;
+}
+
+:root {
+  background-color: var(--bg-app);
+  font-size: var(--font-size-app);
+}
+
+body {
+  box-sizing: border-box;
+  font-family: var(--font-family-app);
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--bg-footer);
+  color: var(--color-footer);
+  height: var(--height-footer);
+  line-height: var(--height-footer);
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--color-link);
+}
+
+.footer a:hover,
+.footer a:focus {
+  text-decoration: underline;
+  color: var(--color-link-focus);
+}

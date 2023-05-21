@@ -1,3 +1,5 @@
+@import url("/common.css");
+
 :root {
   --dark-cyan: hsl(185, 76%, 39%);
   --dark-blue: hsl(229, 23%, 23%);
@@ -11,21 +13,9 @@
   --bg-footer: hsla(185, 76%, 20%, 0.3);
   --color-footer: var(--white);
   --height-footer: 3rem;
-
-  font-family: 'Kumbh Sans', sans-serif;
-  font-size: 16px;
-  background-color: var(--dark-cyan);
-}
-
-* {
-  font-family: inherit;
-  box-sizing: inherit;
-}
-
-body {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  --bg-app: var(--dark-cyan);
+  --font-size-app: 16px;
+  --font-family-app: "Kumbh Sans", sans-serif;
 }
 
 .card-container {
@@ -39,7 +29,7 @@ body {
 .card-container::before,
 .card-container::after {
   position: fixed;
-  content: '';
+  content: "";
   width: 150%;
   height: 150%;
   background-size: contain;
@@ -150,27 +140,7 @@ body {
 }
 
 .footer {
-  z-index: 10;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: var(--bg-footer);
-  color: var(--color-footer);
-  height: var(--height-footer);
-  line-height: 3rem;
-  text-align: center;
   backdrop-filter: blur(10px);
-}
-
-.footer a {
-  text-decoration: none;
-  color: var(--color-link);
-}
-
-.footer a:hover,
-.footer a:focus {
-  text-decoration: underline;
-  color: var(--color-link-focus);
 }
 
 @media (min-width: 768px) {
