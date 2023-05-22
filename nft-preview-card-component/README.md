@@ -22,7 +22,7 @@ Solution for the [Frontend Mentor](https://frontendmentor.io) challenge - [NFT P
 ## Links
 
 - [Live Site](https://su-fm-newbie.netlify.app/nft-preview-card-component/)
-- [Solution](https://www.frontendmentor.io/solutions/qr-code-component-mzZAz5ixZE)
+- [Solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-czl5NMCRGn)
 
 ## Built with
 
