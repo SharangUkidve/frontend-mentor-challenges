@@ -17,6 +17,17 @@ body {
   padding: 0;
 }
 
+.app-container {
+  min-height: 100vh;
+  padding-bottom: var(--height-footer);
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .footer {
   position: fixed;
   left: 0;

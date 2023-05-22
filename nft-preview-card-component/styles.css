@@ -1,0 +1,124 @@
+@import url(/common.css);
+
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --cyan-lighter: hsl(178, 100%, 75%);
+  --cyan-overlay: hsla(178, 100%, 50%, 0.5);
+  --bg-main: hsl(217, 54%, 11%);
+  --bg-card: hsl(216, 50%, 16%);
+  --white: hsl(0, 0%, 100%);
+
+  --bg-app: var(--bg-main);
+  --font-family-app: 'Outfit', sans-serif;
+  --font-size-app: 16px;
+  --height-footer: 3rem;
+  --color-link: var(--cyan);
+  --color-link-focus: var(--cyan-lighter);
+
+  color: var(--white);
+}
+
+.app-container {
+  padding: 0 1.5rem var(--height-footer);
+}
+
+.card {
+  background-color: var(--bg-card);
+  max-width: 350px;
+  max-height: 600px;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  color: var(--soft-blue);
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 0.75rem;
+  display: block;
+  cursor: pointer;
+}
+
+.card-img-container {
+  position: relative;
+}
+
+.card-img-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--cyan-overlay);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  border-radius: 0.75rem;
+}
+
+.card-img:hover + .card-img-overlay,
+.card-img-overlay:hover {
+  visibility: visible;
+  opacity: 1;
+  transition: all 600ms;
+}
+
+.card-link {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.card-link:hover,
+.card-link:focus {
+  color: var(--cyan);
+}
+
+.card-body {
+  padding-bottom: 1.5rem;
+}
+
+.card-body-text {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.card-body-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-body-stat {
+  display: flex;
+  align-items: center;
+}
+
+.card-body-cost {
+  color: var(--cyan);
+}
+
+.card-body-time {
+  font-weight: 300;
+}
+
+.card-body-stat-icon {
+  margin-inline-end: 0.25rem;
+}
+
+.card-footer {
+  padding: 1rem 0;
+  border-top: 0.5px solid var(--soft-blue);
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+}
+
+.card-avatar {
+  border-radius: 50%;
+  margin-inline-end: 1rem;
+  border: 1px solid var(--white);
+}
